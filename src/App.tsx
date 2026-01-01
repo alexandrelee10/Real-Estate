@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Properties } from './components/Properties';
+import { Testimonials } from './components/Testimonials';
 
 export const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
@@ -13,6 +14,7 @@ export const App = () => {
       <Hero />
       <About />
       <Properties />
+      <Testimonials />
     </div>
   )
 }

@@ -100,9 +100,9 @@ const slideLeft = () => {
 
 
   return (
-    <section id="properties" className="px-4 sm:px-12 lg:px-24 xl:px-40 py-16">
+    <section id="properties" className="px-4 sm:px-12 lg:px-24 xl:px-40 py-16 bg-white">
 {/* Header */}
-<div className="text-center max-w-3xl mx-auto">
+<div className="text-center max-w-3xl mx-auto ">
   <h3 className="text-3xl sm:text-4xl tracking-tight text-gray-900 font-normal">
     Properties <span className="underline font-light text-gray-600">Completed</span>
   </h3>

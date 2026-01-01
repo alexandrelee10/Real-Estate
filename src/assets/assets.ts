@@ -64,9 +64,6 @@ export const company_logos = [
     zoom_logo
 ]
 
-export const property_Homes = [
-
-]
 
 const assets = {
     logo,
@@ -120,10 +117,3 @@ const assets = {
 }
 
 export default assets
-
-export const testimonial = [
-    {name: 'Michael Anderson', title: 'Software Engineer', comment: 'From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.'},
-    {name: 'Andrew Nelson', title: 'Semi-truck Driver', comment: 'From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.'},
-    {name: 'Maria Hernandez', title: 'UI/UX Designer', comment: 'From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.'},
-
-]
