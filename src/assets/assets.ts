@@ -20,6 +20,7 @@ import menu_icon from './icons/menu_icon.svg'
 import moon_icon from './icons/moon_icon.svg'
 import sun_icon from './icons/sun_icon.svg'
 import move_left from './icons/move_left.svg'
+import move_right from './icons/move_right.svg'
 import person_icon from './icons/person_icon.svg'
 import shower_icon from './icons/shower_head.svg'
 import sliders_horizontal from './icons/sliders_horizontal.svg'
@@ -43,6 +44,14 @@ import group_profile from './team/group_profile.png'
 import profile_img_1 from './testimonial/profile_img_1.png'
 import profile_img_2 from './testimonial/profile_img_2.png'
 import profile_img_3 from './testimonial/profile_img_3.png'
+import Pinecrest_Home from './properties/Pinecrest_Home.png'
+import Orlando_Home from './properties/Orlando_Home.png'
+import Jacksonville_Home_1 from './properties/Jacksonville_Home_1.png'
+import Jacksonville_Home_2 from './properties/Jacksonville_Home_2.png'
+import StPete_Home from './properties/StPete_Home.png'
+import Southwest_Ranches_Home from './properties/Southwest_Ranches_Home.png'
+import Miami_Home_1 from './properties/Miami_Home_1.png'
+import Tampa_Home from './properties/Tampa_Home.png'
 
 
 // Company Logos
@@ -53,6 +62,10 @@ export const company_logos = [
     microsoft_logo,
     rakuten_logo,
     zoom_logo
+]
+
+export const property_Homes = [
+
 ]
 
 const assets = {
@@ -80,6 +93,7 @@ const assets = {
     moon_icon,
     sun_icon,
     move_left,
+    move_right,
     person_icon,
     shower_icon,
     sliders_horizontal,
@@ -94,7 +108,15 @@ const assets = {
     profile_img_1,
     profile_img_2,
     profile_img_3,
-    group_profile
+    group_profile,    
+    Tampa_Home,
+    Southwest_Ranches_Home,
+    Orlando_Home,
+    StPete_Home,
+    Jacksonville_Home_1,
+    Jacksonville_Home_2,
+    Miami_Home_1,
+    Pinecrest_Home
 }
 
 export default assets

@@ -41,7 +41,7 @@ export const Hero = () => {
         </p>
 
         <div className="mt-8">
-          <a href="#properties" className="inline-block border border-white text-white px-8 py-3 rounded-md font-medium transition hover:bg-white hover:text-black">
+          <a href="" className="inline-block border border-white text-white px-8 py-3 rounded-md font-medium transition hover:bg-white hover:text-black">
             Contact Us
           </a>
         </div>

@@ -3,11 +3,11 @@ import assets from '../assets/assets'
 
 export const About = () => {
   return (
-    <section id="about" className="w-full bg-white">
-      <div className="mx-auto max-w-7xl px-4 sm:px-12 lg:px-24 py-16 sm:py-24">
+    <section id="about-us" className="w-full bg-white">
+      <div className="mx-auto max-w-7xl px-4 sm:px-12 lg:px-24 py-16 sm:py-24 animate-fade-up">
         
         {/* MAIN LAYOUT */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start ">
 
           {/* LEFT — Image */}
           <div className="relative w-full h-[420px] sm:h-[520px] lg:h-[640px] overflow-hidden rounded-2xl">
@@ -22,9 +22,10 @@ export const About = () => {
           <div className="flex flex-col">
 
             {/* Header */}
-            <div className="max-w-2xl flex flex-col items-center">
-              <h3 className="text-3xl sm:text-4xl tracking-tight text-gray-90">
-                About <span className="underline font-extralight">Our Brand</span>
+            <div className="max-w-2xl mx-auto flex flex-col items-center text-center leading-relaxed">
+              <h3 className="text-3xl sm:text-4xl tracking-tight text-gray-90 font-medium space-y-3">
+                About{" "}
+                <span className="underline decoration-2 underline-offset-4  font-extralight space-y-3 text-gray-600">Our Brand</span>
               </h3>
               <p className="mt-3 text-base sm:text-lg text-gray-600">
                 Passionate About Properties, Dedicated to Your Vision
@@ -32,31 +33,31 @@ export const About = () => {
             </div>
 
             {/* Stats */}
-            <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="rounded-xl  bg-white p-6 hover:shadow-md transition">
-                <h3 className="text-3xl font-semibold text-blue-800 bottom-0">10+</h3>
-                <p className="mt-2 text-sm text-gray-600 font-light">Years of Excellence</p>
+            <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto place-items-center text-center">
+              <div className="rounded-xl  bg-white p-6 hover:shadow-md transition flex flex-col items-center">
+                <h3 className="font-normal text-3xl text-blue-800 bottom-0">10+</h3>
+                <p className="mt-2 text-sm text-gray-600 font-light top-0">Years of Excellence</p>
               </div>
 
-              <div className="rounded-xl bg-white p-6 hover:shadow-md transition">
-                <h3 className="text-3xl font-semibold text-blue-800">12+</h3>
-                <p className="mt-2 text-sm text-gray-600">Projects Completed</p>
+              <div className="rounded-xl bg-white p-6 hover:shadow-md transition flex flex-col items-center">
+                <h3 className="font-normal text-3xl text-blue-800  bottom-0">12+</h3>
+                <p className="mt-2 text-sm text-gray-600 font-light">Projects Completed</p>
               </div>
 
-              <div className="rounded-xl bg-white p-6 hover:shadow-md transition">
-                <h3 className="text-3xl font-semibold text-blue-800">20+</h3>
-                <p className="mt-2 text-sm text-gray-600">Mn Sq. Ft. Delivered</p>
+              <div className="rounded-xl bg-white p-6 hover:shadow-md transition flex flex-col items-center">
+                <h3 className="text-3xl font-normal text-blue-800 bottom-0">20+</h3>
+                <p className="mt-2 text-sm text-gray-600 font-light">Mn Sq. Ft. Delivered</p>
               </div>
 
-              <div className="rounded-xl bg-white p-6 hover:shadow-md transition">
-                <h3 className="text-3xl font-semibold text-blue-800">25+</h3>
-                <p className="mt-2 text-sm text-gray-600">Ongoing Projects</p>
+              <div className="rounded-xl bg-white p-6 hover:shadow-md transition flex flex-col items-center">
+                <h3 className="text-3xl font-normal text-blue-800 bottom-0">25+</h3>
+                <p className="mt-2 text-sm text-gray-600 font-light">Ongoing Projects</p>
               </div>
             </div>
 
             {/* Text + CTA */}
-            <div className="mt-10 rounded-2xl bg-gray-50 p-7 sm:p-10 flex items-center flex-col">
-              <p className="text-gray-700 leading-relaxed">
+            <div className="mt-10 rounded-2xl p-7 sm:p-10 flex flex-col items-center text-center max-w-3xl mx-auto top-0">
+              <p className="text-gray-700 leading-relaxed bg-white">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet explicabo,
                 pariatur consequatur et laboriosam ab corporis accusantium temporibus beatae
                 aperiam magni velit adipisci a, ratione error ex. Ipsam, a suscipit.
