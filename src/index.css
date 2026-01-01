@@ -11,5 +11,7 @@
 }
 
 @theme{
-  --color-primary: #5044E5;
+  --color-primary: #D8CFC4;
+  --color-secondary: #CBBBA0;
+  --color-about-text: #4D8CEA;
 }
