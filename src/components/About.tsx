@@ -23,8 +23,8 @@ export const About = () => {
 
             {/* Header */}
             <div className="max-w-2xl flex flex-col items-center">
-              <h3 className="text-3xl sm:text-4xl font-semibold tracking-tight text-gray-90">
-                About <span className=" text-light underline">Our Brand</span>
+              <h3 className="text-3xl sm:text-4xl tracking-tight text-gray-90">
+                About <span className="underline font-extralight">Our Brand</span>
               </h3>
               <p className="mt-3 text-base sm:text-lg text-gray-600">
                 Passionate About Properties, Dedicated to Your Vision
@@ -34,22 +34,22 @@ export const About = () => {
             {/* Stats */}
             <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="rounded-xl  bg-white p-6 hover:shadow-md transition">
-                <h3 className="text-3xl font-semibold text-blue-800">10+</h3>
-                <p className="mt-2 text-sm text-gray-600">Years of Excellence</p>
+                <h3 className="text-3xl font-semibold text-blue-800 bottom-0">10+</h3>
+                <p className="mt-2 text-sm text-gray-600 font-light">Years of Excellence</p>
               </div>
 
               <div className="rounded-xl bg-white p-6 hover:shadow-md transition">
-                <h3 className="text-3xl font-semibold text-gray-900">12+</h3>
+                <h3 className="text-3xl font-semibold text-blue-800">12+</h3>
                 <p className="mt-2 text-sm text-gray-600">Projects Completed</p>
               </div>
 
               <div className="rounded-xl bg-white p-6 hover:shadow-md transition">
-                <h3 className="text-3xl font-semibold text-gray-900">20+</h3>
+                <h3 className="text-3xl font-semibold text-blue-800">20+</h3>
                 <p className="mt-2 text-sm text-gray-600">Mn Sq. Ft. Delivered</p>
               </div>
 
               <div className="rounded-xl bg-white p-6 hover:shadow-md transition">
-                <h3 className="text-3xl font-semibold text-gray-900">25+</h3>
+                <h3 className="text-3xl font-semibold text-blue-800">25+</h3>
                 <p className="mt-2 text-sm text-gray-600">Ongoing Projects</p>
               </div>
             </div>
