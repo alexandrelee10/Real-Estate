@@ -12,6 +12,7 @@ export const Testimonials = () => {
       comment:
         "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
       img: assets.profile_img_1,
+      rating: 4
     },
     {
       id: 2,
@@ -20,6 +21,7 @@ export const Testimonials = () => {
       comment:
         "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
       img: assets.profile_img_2,
+      rating: 5
     },
     {
       id: 3,
@@ -28,6 +30,7 @@ export const Testimonials = () => {
       comment:
         "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
       img: assets.profile_img_3,
+      rating: 4
     },
   ];
 
@@ -52,6 +55,7 @@ export const Testimonials = () => {
               title={person.title}
               comment={person.comment}
               img={person.img}
+              rating={person.rating}
             />
           ))}
         </div>

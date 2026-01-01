@@ -52,6 +52,7 @@ import StPete_Home from './properties/StPete_Home.png'
 import Southwest_Ranches_Home from './properties/Southwest_Ranches_Home.png'
 import Miami_Home_1 from './properties/Miami_Home_1.png'
 import Tampa_Home from './properties/Tampa_Home.png'
+import star_icon from './testimonial/star_icon.svg'
 
 
 // Company Logos
@@ -113,7 +114,8 @@ const assets = {
     Jacksonville_Home_1,
     Jacksonville_Home_2,
     Miami_Home_1,
-    Pinecrest_Home
+    Pinecrest_Home,
+    star_icon
 }
 
 export default assets
