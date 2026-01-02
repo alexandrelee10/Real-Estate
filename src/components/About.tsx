@@ -23,9 +23,9 @@ export const About = () => {
 
             {/* Header */}
             <div className="max-w-2xl mx-auto flex flex-col items-center text-center leading-relaxed">
-              <h3 className="text-3xl sm:text-4xl tracking-tight text-gray-90 font-medium space-y-3">
+              <h3 className="text-3xl sm:text-4xl tracking-tight text-gray-90 font-bold space-y-3 text-black">
                 About{" "}
-                <span className="underline decoration-2 underline-offset-4  font-extralight space-y-3 text-gray-600">Our Brand</span>
+                <span className="font-extralight underline underline-offset-5 decoration-1 text-gray-600">Our Brand</span>
               </h3>
               <p className="mt-3 text-base sm:text-lg text-gray-600">
                 Passionate About Properties, Dedicated to Your Vision

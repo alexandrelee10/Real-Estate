@@ -5,6 +5,8 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Properties } from './components/Properties';
 import { Testimonials } from './components/Testimonials';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
 
 export const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
@@ -15,6 +17,8 @@ export const App = () => {
       <About />
       <Properties />
       <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   )
 }
