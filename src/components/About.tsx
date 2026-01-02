@@ -33,7 +33,7 @@ export const About = () => {
             </div>
 
             {/* Stats */}
-            <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto place-items-center text-center">
+            <div className="mt-10 grid grid-cols-2 sm:grid-cols-2 gap-6 max-w-4xl mx-auto place-items-center text-center">
               <div className="rounded-xl  bg-white p-6 hover:shadow-md transition flex flex-col items-center">
                 <h3 className="font-normal text-3xl text-blue-800 bottom-0">10+</h3>
                 <p className="mt-2 text-sm text-gray-600 font-light top-0">Years of Excellence</p>

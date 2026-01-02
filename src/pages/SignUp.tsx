@@ -49,6 +49,16 @@ const SignUp = () => {
               />
             </div>
 
+            <div>
+              <label className="text-sm font-medium text-gray-700">Confirm Password</label>
+              <input
+                className="mt-2 w-full border border-gray-300 rounded-lg p-3 outline-none"
+                type="password"
+                placeholder="••••••••"
+                required
+              />
+            </div>
+
             <button
               type="submit"
               className="w-full bg-blue-500 text-white py-3 rounded-full hover:scale-[1.01] transition"
